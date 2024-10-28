@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+ 
+        // 1 
+        let dateOfBirth = 1994;
+        document.write(`მე დავიბადე ${dateOfBirth} წელს.`)
+
+        document.write(`<br/>`)
+        
+        // 2 
+        let myNoun = "ძაღლი";
+        let myAdjective = "დიდი";
+        let myVerb = "გაიქცა";
+        let myAdverb = "სწრაფად";
+
+        document.write(`${myAdjective} ${myNoun} ${myVerb} ${myAdverb}.`)
+
+        document.write(`<br/>`)
+
+        // 3
+        let color = "green";
+
+        if (color == "red") {
+            console.log(`${color} is my favourite color.`)
+        }else {
+            console.log(`I don't like ${color}.`)
+        }
+
+        // 4
+        let number = prompt("Please enter number:");
+
+        if (number%2==0) {
+            console.log("number is even")
+        }else if (number%2 == 1){
+            console.log("number is odd")
+        }else (
+            console.log("Please enter number")
+        )
+
+        // 5
+        let age = prompt("გთხოვთ შეიყვანოთ ასაკი:");
+        if (age<18) {
+            document.write("თქვენ არ ხართ სრულწლოვანი")
+        }else if (age>=18) {
+            document.write("თქვენ ხართ სრულწლოვანი")
+        }else {
+            document.write("გთხოვთ შეიყვანოთ რიცხვი")
+        }
+
+    </script>
+</body>
+</html>
